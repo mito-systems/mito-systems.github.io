@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mito Systems - Robust Web3 Apps</title>
+    <title>Mito Systems - Building the Future of DeSci</title>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body, html {
@@ -20,18 +20,15 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('/public/images/background.png');
+            background-image: url('./public/images/background.png');
             background-size: cover;
             background-position: center;
             filter: brightness(0.4);
             z-index: -1;
         }
         .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            min-height: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
             padding: 40px 20px;
             text-align: center;
             position: relative;
@@ -39,45 +36,123 @@
             box-sizing: border-box;
         }
         .content {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            margin-bottom: 60px;
         }
         h1 {
             font-family: 'Comfortaa', cursive;
             font-size: 4rem;
             margin-bottom: 0.5rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            background: linear-gradient(to right, #6ee7b7, #5eead4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #6ee7b7;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
         p {
-            font-size: 1.5rem;
-            max-width: 600px;
-            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 1rem auto;
+            color: #a7f3d0;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .section {
+            background: rgba(6, 78, 59, 0.3);
+            border: 1px solid rgba(110, 231, 183, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+        .buttons {
+            margin: 2rem 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 0.5rem;
+            background-color: #059669;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #047857;
         }
         .footer {
+            margin-top: 4rem;
+            padding: 2rem;
             font-size: 0.9rem;
-            opacity: 0.7;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            color: #6ee7b7;
         }
-        .contact-info {
-            margin-bottom: 1rem;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+        li {
+            color: #a7f3d0;
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #6ee7b7;
         }
     </style>
 </head>
 <body>
-    <div class="background"></div>
+  <div class="background"></div>
     <div class="container">
         <div class="content">
             <h1>Mito Systems</h1>
-            <p>Building robust Web3 apps for mass adoption</p>
-        </div>
-        <div class="footer">
-            <div class="contact-info">
-                <p>zach /at/ mito [dot] systems</p>
+
+                <h2>Pioneering DeSci Innovation</h2>
+                <p>At Mito Systems, we're accelerating scientific research through decentralized technology. Our first product, Ranger, demonstrates our approach to transforming how scientific data is collected, verified, and monetized. We are pursuing this approach across many industries.</p>
             </div>
-            <p>&copy; 2024 Mito Systems. All rights reserved.</p>
+
+            <div class="section">
+                <h2>Technology Stack</h2>
+                <ul>
+                    <li>AI powered data validation and analysis</li>
+                    <li>Decentralized data collection systems</li>
+                    <li>Robust long-term archiving solutions</li>
+                    <li>User incentive and reward mechanisms</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Widespread Applications</h2>
+                <ul>
+                    <li>Ecological monitoring and biodiversity research</li>
+                    <li>Community driven initiatives</li>
+                    <li>Humanitarian data collection</li>
+                    <li>Consumer goods verification</li>
+                    <li>Insurance claim validation</li>
+                    <li>Events and gatherings</li>    
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>About</h2>
+                <p>We've been tinkering in DeSci for over a decade and outlined a vision for it in 2016: <a href="https://bitcoinmagazine.com/business/how-blockchains-can-further-public-science-1457972964">Blockchains for Public Science</a>. Recent technological advances enables us to deliver on this vision today. Follow us on <a href="https://x.com/mito_sys_tems">Twitter</a> for updates.</p>
+            </div>
+	</div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Mito Systems. All rights reserved. Powered by <a href="https://laconic.com">Laconic</a> and <a href="https://www.axondao.io">AxonDAO</a></p>
         </div>
     </div>
 </body>
